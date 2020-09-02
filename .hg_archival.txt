@@ -1,0 +1,6 @@
+repo: 3cdd886cefa5adec9663de7fcbc85ca2686ed035
+node: ce47f50420a63bd281bfbc51beb44067186b96c4
+branch: default
+latesttag: publish version 1.0.1
+latesttagdistance: 4
+changessincelatesttag: 5

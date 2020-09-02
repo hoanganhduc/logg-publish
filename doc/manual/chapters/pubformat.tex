@@ -1,0 +1,100 @@
+\chapter{Internal Format (\texttt{.pub})}
+\label{pubformat}
+
+\section{Overview}
+
+Papers are stored in the \emp{pub} format according to the following scheme:
+\begin{code}
+* category
+** title
+   attribute: value
+   attribute: value
+   ...
+** title
+   attribute: value
+   attribute: value
+   ...
+* category
+   ...
+\end{code}
+
+Each category is specified by a \emp{*} followed by a single space and
+the name of the category.  Within each category, each paper is
+specified by \emp{**} followed by a single space and the title of the
+paper. Then follows for each paper all attribute-value pairs separated
+by \emp{:} (spaces ignored).
+
+Each category specifies a number of required attributes that must be
+specified for each paper within that category. In addition to the
+required attributes, any number of additional attributes may be
+specified.
+
+Currently, all attribute-value pairs must be entered in a single line
+(multi-line values not supported).
+
+\section{Example}
+
+\tiny
+\begin{code}
+* articles
+** Numerical Methods for Incompressible Viscous Flow
+   author:    H. P. Langtangen, K.-A. Mardal, R. Winther
+   journal:   Advances in Water Resources
+   year:      2002
+   status:    published
+   number:    8
+   pages:     1125--1146
+   volume:    25
+   key:       SC.4.Langtangen.2002.b
+   entrytype: article
+** Unified Framework for Finite Element Assembly
+   author:    Martin Sandve Aln{\ae}s, Anders Logg, Kent-Andre Mardal, Ola Skavhaug, Hans Petter Langtangen
+   journal:   International Journal of Nonlinear Modelling in Science and Engineering
+   year:      2009
+   status:    published
+   entrytype: article
+   key:       Simula.SC.96
+* books
+** Computational Partial Differential Equations - Numerical Methods and Diffpack Programming
+   author:    H. P. Langtangen
+   publisher: Springer-Verlag
+   year:      2003
+   status:    published
+   note:      2nd edition, 855 pages
+   key:       SC.1.Langtangen.2003
+   entrytype: book
+** {P}ython Scripting for Computational Science
+   author:    Hans Petter Langtangen
+   publisher: Springer-Verlag
+   year:      2008
+   status:    published
+   isbn:      978-3-540-73915-9
+   edition:   third
+   duplicate: True
+   key:       Simula.SC.63
+   entrytype: book
+   address:   Heidelberg
+* theses
+** Applications of High Level Software for Parallel Solution of Partial Differential Equations
+   author:     {\AA}smund {\O}deg{\aa}rd
+   school:     Department of Informatics, University of Oslo
+   year:       2006
+   thesistype: phd
+   status:     published
+   key:        Odegard.2006.1
+   entrytype:  phdthesis
+\end{code}
+\normalsize
+
+\section{Required Attributes}
+
+Some attributes are mandatory for a given category. For example,
+an article needs author, title, journal, and year (as well as status,
+but that can set by \package()). The required attributes are defined
+in a variable \emp{category\_attributes} in
+\emp{publish/config/defaults.py} and can be overridden in
+a user's \emp{publish\_config.py} file.
+
+We refer to the \emp{category\_attributes} dictionary in
+\emp{publish/config/defaults.py} for an overview of
+all required attributes.

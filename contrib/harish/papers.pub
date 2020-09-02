@@ -1,0 +1,163 @@
+* theses
+** A continuum theory of multiphase mixtures for modelling biological growth
+   author:     H. Narayanan
+   school:     University of Michigan
+   year:       2007
+   type:       Doctoral Dissertation
+   status:     published
+   key:        narayanan2007
+   preprint:   http://home.simula.no/~harish/files/papers/dissertation/dissertation.pdf
+   postprint:  http://dx.doi.org/2027.42/57683
+* articles
+** An adaptive, error-controlled scheme for the Navier-Stokes equations with applications to biomedical flow
+   author:    H. Narayanan, A. Logg
+   year:      2011
+   status:    preparation
+   key:       narayanan2011
+** An adaptive finite element method for fluid-structure interaction
+   author:    K. Selim, A. Logg, H. Narayanan, M. G. Larson
+   year:      2011
+   status:    submitted
+   preprint:  http://home.simula.no/~harish/files/papers/adaptive-finite-element-method-for-fluid-structure-interaction.pdf
+   key:       selim2011
+** In silico estimates of the free energy changes in growing, avascular, tumor spheroids
+   author:    H. Narayanan, S. N. Verner, K. L. Mills, R. Kemkemer, K. Garikipati
+   journal:   Journal of Physics: Condensed Matter
+   year:      2010
+   status:    published
+   number:    19
+   volume:    22
+   preprint:  http://arxiv.org/pdf/1002.1428v2
+   postprint: http://dx.doi.org/10.1088/0953-8984/22/19/194122
+   key:       narayanan2009b
+** The micromechanics of fluid-solid interactions during growth in porous soft biological tissue
+   author:    H. Narayanan, E. M. Arruda, K. Grosh, K. Garikipati
+   journal:   Biomechanics and Modeling in Mechanobiology
+   year:      2009
+   status:    published
+   number:    3
+   volume:    8
+   pages:     167--181
+   key:       narayanan2009a
+   preprint:  http://arxiv.org/pdf/q-bio/0701003v4
+   postprint: http://dx.doi.org/10.1007/s10237-008-0126-1
+** The continuum elastic and atomistic viewpoints on the formation volume and strain energy of a point defect
+   author:    K. Garikipati, M. Falk, M. Bouville, B. Puchala, H. Narayanan
+   journal:   Journal of the Mechanics and Physics of Solids
+   year:      2006
+   status:    published
+   number:    9
+   volume:    54
+   pages:     1929--1951
+   key:       garikipati2006b
+   preprint:  http://arxiv.org/pdf/cond-mat/0508169v1
+   postprint: http://dx.doi.org/10.1016/j.jmps.2006.02.007
+** Biological remodelling: Stationary energy, configurational change, internal variables and dissipation
+   author:    K. Garikipati, J. Olberding, H. Narayanan, E. M. Arruda, K. Grosh, S. Calve
+   journal:   Journal of the Mechanics and Physics of Solids
+   year:      2006
+   status:    published
+   number:    7
+   volume:    54
+   pages:     1493--1515
+   key:       garikipati2006a
+   preprint:  http://arxiv.org/pdf/q-bio/0506023v2
+   postprint: http://dx.doi.org/10.1016/j.jmps.2005.11.011
+** A continuum treatment of growth in biological tissue: The coupling of mass transport and mechanics
+   author:    K. Garikipati, E. M. Arruda, K. Grosh, H. Narayanan, S. Calve
+   journal:   Journal of the Mechanics and Physics of Solids
+   year:      2004
+   status:    published
+   number:    7
+   volume:    52
+   pages:     1595--1625
+   key:       garikipati2004
+   preprint:  http://arxiv.org/pdf/q-bio/0312001v3
+   postprint: http://dx.doi.org/10.1016/j.jmps.2004.01.004
+* chapters
+** A computational framework for nonlinear elasticity
+   author:    H. Narayanan
+   editor:    A. Logg, K-A. Mardal, G. N. Wells
+   booktitle: Automated Scientific Computing
+   year:      2010
+   status:    accepted
+   key:       narayanan2010b
+   preprint:  http://home.simula.no/~harish/files/papers/computational-framework-for-nonlinear-elasticity.pdf
+** A comparison of some finite element schemes for the incompressible Navier-Stokes equations
+   author:    K. Valen-Sendstad, A. Logg, K-A. Mardal, H. Narayanan, M. Mortensen
+   editor:    A. Logg, K-A. Mardal, G. N. Wells
+   booktitle: Automated Scientific Computing
+   year:      2010
+   status:    accepted
+   key:       valensendstad2010
+   preprint:  http://home.simula.no/~harish/files/papers/comparison-of-finite-element-schemes-for-navier-stokes-equations.pdf
+** Characterization and modeling of growth and remodeling in tendon and soft tissue constructs
+   author:    E. M. Arruda, S. Calve, K. Garikipati, K. Grosh, H. Narayanan
+   chapter:   5
+   editor:    G. A. Holzapfel, R. W. Ogden
+   year:      2006
+   status:    published
+   booktitle: Mechanics of Biological Tissue
+   postprint: http://dx.doi.org/10.1007/3-540-31184-X_5
+   preprint:  http://home.simula.no/~harish/files/papers/characterizing-growth-and-remodeling.pdf
+   pages:     63--75
+   key:       arruda2006
+** Material forces in the context of biotissue remodelling
+   author:    K. Garikipati, H. Narayanan, E. M. Arruda, K. Grosh, S. Calve
+   chapter:   8
+   editor:    P. Steinmann, G. A. Maugin
+   year:      2005
+   status:    published
+   booktitle: Mechanics of Material Forces
+   series:    Advances in Mechanics and Mathematics
+   volume:    11
+   postprint: http://dx.doi.org/10.1007/0-387-26261-X_8
+   preprint:  http://arxiv.org/pdf/q-bio/0312002v1
+   pages:     77--84
+* proceedings
+** Experimental and computational investigation of viscoelasticity of native and engineered ligament and tendon
+   author:    J. Ma, H. Narayanan, K. Garikipati, K. Grosh, E. M. Arruda
+   booktitle: Cellular, Molecular and Tissue Mechanics
+   series:    IUTAM Symposium Bookseries
+   editor:    K. Garikipati, E. M. Arruda
+   volume:    16
+   year:      2010
+   status:    published
+   key:       ma2010
+   postprint: http://dx.doi.org/10.1007/978-90-481-3348-2_1
+   preprint:  http://home.simula.no/~harish/files/papers/experimental-and-computational-viscoelasticity.pdf
+   pages:     3--17
+** Collaborative computational frameworks and the growth problem
+   author:    H. Narayanan, K. Garikipati, A. Logg
+   booktitle: The Mathematics of Growth and Remodelling of Soft Biological Tissues
+   series:    Ma\-the\-mat\-isch\-es For\-schungs\-insti\-tut O\-ber\-wol\-fach Reports
+   editor:    D. Ambrosi, K. Garikipati, E. Kuhl
+   number:    3
+   volume:    5
+   year:      2008
+   status:    published
+   key:       narayanan2008
+   preprint:  http://www.mfo.de/programme/schedule/2008/36a/OWR_2008_39.pdf
+   postprint: http://www.ems-ph.org/journals/show_abstract.php?issn=1660-8933&vol=5&iss=3&rank=11
+   pages:     2247--2249
+** Mathematical modelling of solid tumor growth
+   author:    K. Garikipati, H. Narayanan, K. Grosh, E. M. Arruda
+   booktitle: The Mathematics of Growth and Remodelling of Soft Biological Tissues
+   series:    Ma\-the\-mat\-isch\-es For\-schungs\-insti\-tut O\-ber\-wol\-fach Reports
+   editor:    D. Ambrosi, K. Garikipati, E. Kuhl
+   number:    3
+   volume:    5
+   year:      2008
+   status:    published
+   key:       garikipati2008
+   preprint:  http://www.mfo.de/programme/schedule/2008/36a/OWR_2008_39.pdf
+   postprint: http://www.ems-ph.org/journals/show_abstract.php?issn=1660-8933&vol=5&iss=3&rank=11
+   pages:     2235--2238
+* misc
+** Variational level sets in shape reconstruction from unorganised data sets
+   author:     H. Narayanan
+   school:     University of Michigan
+   year:       2005
+   type:       Project Report
+   key:        narayanan2005
+   preprint:   http://home.simula.no/~harish/files/papers/reconstruction.pdf
